@@ -8,7 +8,7 @@ It is particularly useful working with imported data. Let's say you have parsed 
 	data is in each column. In this example we have a price list that looks like: 
 	
 	![Price list example]
-	(https://github.com/4D-Open-Source/dataTools/blob/main/Resources/priceList.png)
+	(https://github.com/4D-Open-Source/dataTools/Resources/priceList.png)
 ```
 ARRAY TEXT($aText;0;0)
 priceList_array(->$aText)
