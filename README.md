@@ -29,6 +29,7 @@ $values_c.push(infer_content_type($temp_c))
 ```
 
 The data types are inferred by looking down an array and taking a vote on what the dominant data type is. Notice that it correctly identifies the first column which is filled with strings that contain valid number characters and not being the right shape to actually be numbers. 
+
 It also works on individual values. 
 
 ```
