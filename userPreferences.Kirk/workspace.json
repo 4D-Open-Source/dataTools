@@ -1,0 +1,31 @@
+﻿{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483643,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "nvl_unitTests"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483640,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "nvl_examples"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483647,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "nvl"
+			}
+		},
+		{
+			"type": "explorer"
+		}
+	]
+}

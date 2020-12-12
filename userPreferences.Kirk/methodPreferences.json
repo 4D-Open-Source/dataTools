@@ -1,0 +1,108 @@
+﻿{
+	"Sources/Methods/infer_content_type_examples.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 44,
+		"lastSelectedLine": 44,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-12T22:26:13.985Z"
+	},
+	"Sources/Methods/priceList_array.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 255,
+		"lastSelectedLine": 255,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-12T21:58:57.194Z"
+	},
+	"Sources/Methods/infer_content_type_unitTests.4dm": {
+		"startSelection": 4,
+		"endSelection": 32,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-12T22:30:44.027Z"
+	},
+	"Sources/Methods/infer_content_type.4dm": {
+		"startSelection": 30,
+		"endSelection": 30,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [
+			0,
+			32,
+			36,
+			38,
+			45,
+			48,
+			58,
+			59,
+			62,
+			65,
+			68,
+			71,
+			75,
+			78,
+			92,
+			94,
+			99,
+			103,
+			108,
+			110,
+			114,
+			118,
+			122,
+			126,
+			130,
+			134,
+			136,
+			145,
+			150,
+			151,
+			154,
+			157,
+			162,
+			166,
+			170
+		],
+		"bookmarks": [],
+		"stamp": "2020-12-12T22:10:54.806Z"
+	},
+	"Sources/Methods/nvl_unitTests.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 37,
+		"lastSelectedLine": 37,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-12T23:07:51.647Z"
+	},
+	"Sources/Methods/nvl.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 40,
+		"lastSelectedLine": 40,
+		"folding": [
+			35,
+			37,
+			40,
+			43,
+			46,
+			49
+		],
+		"bookmarks": [],
+		"stamp": "2020-12-12T22:44:40.930Z"
+	},
+	"Sources/Methods/nvl_examples.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 41,
+		"lastSelectedLine": 41,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-12-12T22:58:51.761Z"
+	}
+}

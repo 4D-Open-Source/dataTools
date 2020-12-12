@@ -42,7 +42,6 @@ parameter exists in the method is null.
 
 ASSERT:C1129(infer_content_type(New object:C1471())=Is undefined:K8:13)  //  because there are no contents
 
-
 var $temp_c : Collection
 
 $temp_c:=New collection:C1472()
@@ -50,6 +49,9 @@ ASSERT:C1129(infer_content_type($temp_c)=Is undefined:K8:13)
 
 $temp_c:=New collection:C1472("1";"1.0";"2.3")
 ASSERT:C1129(infer_content_type($temp_c)=Is real:K8:4)
+
+$temp_c:=New collection:C1472("1-1";"1-0";"2-3")
+ASSERT:C1129(infer_content_type($temp_c)=Is text:K8:3)
 
 /* in this case the collection is mostly null so we decide...  */
 $temp_c:=New collection:C1472("1";"1.0";"2";Null:C1517;Null:C1517;Null:C1517;Null:C1517)
@@ -116,19 +118,14 @@ $o:=New object:C1471(\
 "e";"e1234")
 ASSERT:C1129(infer_content_type($o)=Is text:K8:3)
 
-// neither does this one
+// but dollars are OK
 $o:=New object:C1471(\
-"a";"$1234";\
-"b";"$1234";\
-"c";"$1234";\
+"a";"$1234.00";\
+"b";"$1,234.00";\
+"c";"$1,234,000";\
 "d";"$1234";\
 "e";"$1234")
-ASSERT:C1129(infer_content_type($o)=Is text:K8:3)
-
-
-
-
-
+ASSERT:C1129(infer_content_type($o)=Is real:K8:4)
 
 // --------------------------------------------------------
 ALERT:C41("Infer_content_type\r\rUnit tests done!")

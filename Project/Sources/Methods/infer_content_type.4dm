@@ -51,7 +51,11 @@ If (Count parameters:C259>0)
 			$0:=infer_content_type($1->;$skipNull;$n)
 			
 		: ($valueType=Is text:K8:3)
-			$ok:=Match regex:C1019("^[\\d\\.,\\- ]+";$1;1;$pos;$numLen)  //  $numLen = length of number match
+/*
+we start by matching the continuous number of characters that
+are commonly found in numbers: $ - 0-9 . ,
+*/
+			$ok:=Match regex:C1019("^[\\-\\$]?[\\d.,]+\\-?";$1;1;$pos;$numLen)  //  $numLen = length of number match
 			
 			Case of 
 				: (Match regex:C1019("^\\d\\d\\d\\d-\\d\\d-\\d\\d";$1;1))

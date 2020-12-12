@@ -1,10 +1,19 @@
 ﻿{
 	"methods": {
+		"infer_content_type_examples": {
+			"timeStamp": "2020-12-12T22:26:13.985Z"
+		},
 		"nvl": {
-			"timeStamp": "2020-12-10T19:45:34.615Z"
+			"timeStamp": "2020-12-12T22:44:40.930Z"
+		},
+		"nvl_examples": {
+			"timeStamp": "2020-12-12T22:58:51.761Z"
 		},
 		"infer_content_type": {
-			"timeStamp": "2020-12-12T21:14:32.564Z"
+			"timeStamp": "2020-12-12T22:10:54.806Z"
+		},
+		"priceList_array": {
+			"timeStamp": "2020-12-12T21:58:57.194Z"
 		},
 		"Compiler_Methods": {
 			"timeStamp": "2020-12-12T21:14:01.251Z",
@@ -13,10 +22,10 @@
 			}
 		},
 		"infer_content_type_unitTests": {
-			"timeStamp": "2020-12-12T21:14:16.977Z"
+			"timeStamp": "2020-12-12T22:30:44.027Z"
 		},
 		"nvl_unitTests": {
-			"timeStamp": "2020-12-12T21:13:20.989Z"
+			"timeStamp": "2020-12-12T23:07:51.647Z"
 		}
 	}
 }

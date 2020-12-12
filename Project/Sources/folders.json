@@ -2,6 +2,12 @@
 	"(Default Forms)": {},
 	"(Default Project Methods)": {},
 	"(Default Tables)": {},
+	"Assets": {
+		"methods": [
+			"Compiler_Methods",
+			"priceList_array"
+		]
+	},
 	"infer content type": {
 		"methods": [
 			"infer_content_type",

@@ -1,5 +1,5 @@
 //%attributes = {}
-/*  nvl (variant{; long}) -> variant
+/*  nvl (variant{; long[:fill value}) -> variant
 $1: some variable, null or undefined var
 $2: data type
 $3: fill value
@@ -16,8 +16,8 @@ if $1 is not null and $2 is defined return the $2 value of $1
      eg.  $1= "123" and $2= is real: $0=123
 */
 
-var $1; $3; $fillValue; $0 : Variant
-var $2; $valueType : Integer
+var $1;$3;$fillValue;$0 : Variant
+var $2;$valueType : Integer
 
 $valueType:=Value type:C1509($1)
 

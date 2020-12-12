@@ -32,6 +32,7 @@ ASSERT:C1129(Value type:C1509(nvl(Current date:C33;Is longint:K8:6))=Is real:K8:
 //  now let's define the 'fillvalue' to return instead of empty
 ASSERT:C1129(nvl($x;Is text:K8:3;"xx")="xx")
 ASSERT:C1129(nvl(Null:C1517;Is text:K8:3;"xx")="xx")
+ASSERT:C1129(nvl(123;Is text:K8:3;"xx")="123")
 
 ASSERT:C1129(nvl(Null:C1517;Is collection:K8:32;New collection:C1472(1;2;3)).length=3)
 
