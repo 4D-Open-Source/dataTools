@@ -1,0 +1,22 @@
+﻿{
+	"methods": {
+		"nvl": {
+			"timeStamp": "2020-12-10T19:45:34.615Z"
+		},
+		"infer_content_type": {
+			"timeStamp": "2020-12-12T21:14:32.564Z"
+		},
+		"Compiler_Methods": {
+			"timeStamp": "2020-12-12T21:14:01.251Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"infer_content_type_unitTests": {
+			"timeStamp": "2020-12-12T21:14:16.977Z"
+		},
+		"nvl_unitTests": {
+			"timeStamp": "2020-12-12T21:13:20.989Z"
+		}
+	}
+}

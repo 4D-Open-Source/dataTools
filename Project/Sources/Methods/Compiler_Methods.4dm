@@ -1,0 +1,10 @@
+//%attributes = {"invisible":true}
+C_VARIANT:C1683(nvl;$0)
+C_VARIANT:C1683(nvl;$1)
+C_LONGINT:C283(nvl;$2)
+C_VARIANT:C1683(nvl;$3)
+C_LONGINT:C283(infer_content_type;$0)
+C_VARIANT:C1683(infer_content_type;$1)
+C_BOOLEAN:C305(infer_content_type;$2)
+C_LONGINT:C283(infer_content_type;$3)
+C_VARIANT:C1683(nvl_unitTests;$1)

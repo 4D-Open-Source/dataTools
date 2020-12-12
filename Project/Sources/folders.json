@@ -1,0 +1,24 @@
+﻿{
+	"(Default Forms)": {},
+	"(Default Project Methods)": {},
+	"(Default Tables)": {},
+	"infer content type": {
+		"methods": [
+			"infer_content_type",
+			"infer_content_type_unitTests"
+		]
+	},
+	"nvl": {
+		"methods": [
+			"nvl",
+			"nvl_unitTests"
+		]
+	},
+	"trash": {
+		"groups": [
+			"(Default Forms)",
+			"(Default Project Methods)",
+			"(Default Tables)"
+		]
+	}
+}
