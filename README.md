@@ -26,9 +26,12 @@ $values_c.push(infer_content_type($temp_c))
 ARRAY TO COLLECTION($temp_c;$aText{3})
 $values_c.push(infer_content_type($temp_c))
 //  $values_c [ 2, 2, 1 ] or [ Is text, Is text, Is real ]
+```
 
-//  this will also work for individual values
+The data types are inferred by looking down an array and taking a vote on what the dominant data type is. Notice that it correctly identifies the first column which is filled with strings that contain valid number characters and not being the right shape to actually be numbers. 
+It also works on individual values. 
 
+```
 var $value : Variant
 
 $value:="1234568.000"
