@@ -5,7 +5,8 @@
 This method accepts a number of 4D objects and attempts to determine what type the content of the object is. 
 
 It is particularly useful working with imported data. Let's say you have parsed a text file to a 2D text array and now need to determine what kind of 
-	data is in each column.
+	data is in each column. In this example we have a price list that looks like: 
+	
 ```
 ARRAY TEXT($aText;0;0)
 priceList_array(->$aText)
